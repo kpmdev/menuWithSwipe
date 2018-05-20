@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Menú responsive con efecto swipe (simulando el menú de una app móvil)</title>
+	<link rel="stylesheet" href="css/menu-swipe.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+	<header class="menu__contenedor">
+      <div>
+        <p><a href="https://www.instagram.com/kpmdev/" target="_blank" class="menu__logo"> @kpmdev </a></p>
+      </div>
+      <nav class="menu-contenedor__items" id="jsMenu">
+        <ul>
+          <li class="menu__item"><a class="menu__enlace enlace--active" href="#">Home</a></li>
+          <li class="menu__item"><a class="menu__enlace" href="#">¿Qué hacemos?</a></li>
+          <li class="menu__item"><a class="menu__enlace" href="#">Quienes Somos</a></li>
+          <li class="menu__item"><a class="menu__enlace" href="#">Contacto</a></li>
+          <li class="menu__item"><a class="menu__enlace" href="#">Novedades</a></li>
+        </ul>
+      </nav>
+      <div class="contenedor__icono">
+        <span class="fa fa-bars" id="jsMenuIcon"></span>
+      </div>
+  </header>
+    
+  <section class="notificacion">
+    <h1 class="notificacion__title">Desliza el dedo hacia la derecha</h1>
+    <p class="notificacion__parrafo">Para ocultar el menú, desliza el dedo hacia la izquierda o toca en cualquier lugar de la pantalla.</p>
+    <p class="notificacion__parrafo">*Si estás desde una computadora en Chrome y deseas ver los resultados, haz click derecho en el viewport e inspeccionar, luego selecciona el segundo icono que aparece en la parte superior izquierda y listo.</p>
+  </section>
+
+</body>
+<script src="js/swipe.js"></script>
+</html>
