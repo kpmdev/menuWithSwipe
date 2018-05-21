@@ -17,6 +17,12 @@ body {
 .shadow {
   -webkit-filter: blur(2px);
   filter: blur(2px);
+  -webkit-transform: translateX(80%);
+  -ms-transform: translateX(80%);
+  transform: translateX(80%);
+  -webkit-transition: 500ms;
+  -o-transition: 500ms;
+  transition: 500ms;
 }
 
 .notificacion {
@@ -25,6 +31,9 @@ body {
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
+  -webkit-transition: 500ms;
+  -o-transition: 500ms;
+  transition: 500ms;
 }
 
 @media screen and (max-width: 650px) {
